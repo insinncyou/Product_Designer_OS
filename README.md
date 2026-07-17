@@ -22,6 +22,17 @@ This repository is the Markdown-based foundation of a “Product Designer OS,”
 | AI プロダクトデザイン | AI product design | [`ai-product-design/`](ai-product-design/) |
 | ケーススタディ | Case studies | [`case-studies/`](case-studies/) |
 | 学習ログ | Learning log | [`learning-log/`](learning-log/) |
+| プロンプトライブラリ | Prompt library | [`prompts/`](prompts/) |
+
+## プロンプトライブラリ / Prompt Library
+
+プロダクトデザイン、デザインシステム、リサーチ、ライティング、リポジトリ運用に使える再利用可能な AI 指示集です。
+
+Reusable AI instructions for product design, design systems, research, writing, and repository workflows.
+
+- [Prompt Library を見る / Browse Prompt Library](./prompts/README.md)
+- [Prompt Catalog](./prompts/catalog.md)
+- [新しい Prompt を作成 / Create a New Prompt](./prompts/meta/create-new-prompt.md)
 
 ## 言語方針 / Language convention
 
@@ -45,4 +56,3 @@ Each document may include its purpose, context, principles or process, examples,
 初期フォルダーとプレースホルダーを整備中です。GitHub Pages は有効化していません。
 
 The initial folders and placeholder documents are being established. GitHub Pages is not enabled.
-
