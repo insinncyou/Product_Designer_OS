@@ -15,6 +15,7 @@ A bilingual knowledge base for developing, applying, and reusing product-design 
 - [Product Designer OS Blueprint](./docs/product-designer-os-blueprint.md)
 - [Repository Architecture](./docs/repository-architecture.md)
 - [Roadmap](./docs/roadmap.md)
+- [Prompt Library を見る / Browse Prompt Library](./prompts/README.md)
 
 ## 領域 / Domains
 
@@ -30,8 +31,17 @@ A bilingual knowledge base for developing, applying, and reusing product-design 
 | ケーススタディ | Case Studies | [case-studies/](./case-studies/README.md) |
 | 学習ログ | Learning Log | [learning-log/](./learning-log/README.md) |
 
+## プロンプトライブラリ / Prompt Library
+
+プロダクトデザイン、デザインシステム、リサーチ、ライティング、リポジトリ運用に使える再利用可能な AI 指示集です。
+
+Reusable AI instructions for product design, design systems, research, writing, and repository workflows.
+
+- [Prompt Catalog](./prompts/catalog.md)
+- [新しい Prompt を作成 / Create a New Prompt](./prompts/meta/create-new-prompt.md)
+
 ## 言語方針 / Language convention
 
-日本語を先に、その直後に対応する英語を記載します。未確定の内容は `Draft`、提案段階は `Proposed` と明示します。
+日本語を先に、その直後に対応する英語を記載します。未確定の内容は `Draft`、提案段階は `Proposed` と明示します。固有名詞や意味が変わる専門用語は、無理に翻訳せず原語を併記します。
 
-Japanese appears first, immediately followed by English. Unfinished material is marked `Draft`; proposals are marked `Proposed`.
+Japanese appears first, immediately followed by English. Unfinished material is marked `Draft`; proposals are marked `Proposed`. Proper nouns and technical terms that lose meaning in translation retain their original wording.
