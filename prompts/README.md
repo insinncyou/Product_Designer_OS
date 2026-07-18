@@ -80,3 +80,5 @@ Allowed statuses are `draft`, `active`, `deprecated`, and `archived`.
 - Do not instruct an agent to modify `main` directly.
 
 Browse the complete inventory in the [Prompt Catalog](./catalog.md). See [CONTRIBUTING.md](./CONTRIBUTING.md) to add or maintain prompts.
+
+For guidance on using a prompt as ChatGPT Project knowledge, see [Using Prompts in ChatGPT Projects](../docs/using-prompts-in-chatgpt-projects.md).

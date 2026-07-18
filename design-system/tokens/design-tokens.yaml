@@ -1,0 +1,19 @@
+status: draft
+description: Minimal scaffold only; values are not approved visual decisions.
+primitive:
+  color:
+    neutral:
+      0: "TBD"
+  space:
+    100: "TBD"
+semantic:
+  color:
+    text:
+      primary: "{primitive.color.neutral.0}"
+  space:
+    layout:
+      section: "{primitive.space.100}"
+component:
+  button:
+    background:
+      default: "TBD"
