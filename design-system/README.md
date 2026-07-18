@@ -8,17 +8,18 @@
 
 Document the shared system that keeps product experiences coherent and helps teams design, build, and improve with a common language.
 
-## 今後追加する内容 / Planned content
+## 構成 / Structure
 
-- ビジョン、原則、ガバナンス / Vision, principles, and governance
-- デザインと実装の品質基準 / Design and implementation quality standards
-- コントリビューションとリリース手順 / Contribution and release process
-- アクセシビリティとインクルーシブデザイン / Accessibility and inclusive design
-- 関連するトークンとコンポーネントへの導線 / Links to related tokens and components
+- [DESIGN.md](./DESIGN.md) — 全体の入口と参照順序 / system entry point and reading order
+- [Foundations](./foundations/design-principles.md) — 原則、アクセシビリティ、レイアウト、モーション / principles, accessibility, layout, and motion
+- [Tokens](./tokens/README.md) — トークンの責務と Draft の構造 / token responsibilities and draft structure
+- [Components](./components/README.md) — 再利用可能な UI 部品 / reusable UI building blocks
+- [Patterns](./patterns/README.md) — 複数コンポーネントによるインターフェース解決策 / multi-component interface solutions
+- [Governance](./governance/governance-model.md) — 責任、品質、変更とリリース / ownership, quality, change, and release
+- [Design Decisions](./design-decisions/README.md) — 判断記録 / decision records
 
-## メモ / Notes
+## 利用上の注意 / Usage note
 
-このページはプレースホルダーです。最初のバージョンでは、対象プロダクト、利用者、運用責任者を定義します。
+この領域は Draft の基盤です。具体的な値、コンポーネント仕様、または運用上の承認がない限り、ここにある構造は実装の確定仕様ではありません。
 
-This page is a placeholder. The first version will define the products, users, and maintainers covered by the system.
-
+This area is a Draft foundation. Until specific values, component specifications, or operating approvals exist, its structure is not a final implementation specification.

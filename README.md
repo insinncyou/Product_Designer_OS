@@ -2,27 +2,34 @@
 
 プロダクトデザインの知識、判断、実践を育て、再利用するためのバイリンガルなナレッジベースです。
 
-A bilingual knowledge base for developing and reusing product design knowledge, decisions, and practices.
+A bilingual knowledge base for developing, applying, and reusing product-design knowledge, decisions, and practices.
 
-## このリポジトリについて / About this repository
+## 現在地 / Current status
 
-このリポジトリは、デザインシステムから AI プロダクトデザイン、ケーススタディ、日々の学習までを Markdown で整理する「Product Designer OS」の土台です。現在は初期構築段階です。
+`Foundation Complete` — 現在のフェーズは **Core Architecture and Design System Foundation** です。各領域には Draft または Proposed の資料が含まれ、完成済みの運用仕様を意味するものではありません。GitHub Pages は有効化していません。
 
-This repository is the Markdown-based foundation of a “Product Designer OS,” covering design systems, AI product design, case studies, and continuous learning. It is currently in its initial setup phase.
+`Foundation Complete` — the current phase is **Core Architecture and Design System Foundation**. Materials may be Draft or Proposed; they do not represent finalized operating specifications. GitHub Pages is not enabled.
 
-## コンテンツ / Contents
+## はじめに / Start here
 
-| 日本語 | English | Directory |
+- [Product Designer OS Blueprint](./docs/product-designer-os-blueprint.md)
+- [Repository Architecture](./docs/repository-architecture.md)
+- [Roadmap](./docs/roadmap.md)
+- [Prompt Library を見る / Browse Prompt Library](./prompts/README.md)
+
+## 領域 / Domains
+
+| 日本語 | English | Entry point |
 | --- | --- | --- |
-| デザインシステム | Design system | [`design-system/`](design-system/) |
-| デザイントークン | Design tokens | [`design-tokens/`](design-tokens/) |
-| コンポーネント | Components | [`components/`](components/) |
-| UX 方法論 | UX methodology | [`ux-methodology/`](ux-methodology/) |
-| プロダクトデザインパターン | Product design patterns | [`product-design-patterns/`](product-design-patterns/) |
-| AI プロダクトデザイン | AI product design | [`ai-product-design/`](ai-product-design/) |
-| ケーススタディ | Case studies | [`case-studies/`](case-studies/) |
-| 学習ログ | Learning log | [`learning-log/`](learning-log/) |
-| プロンプトライブラリ | Prompt library | [`prompts/`](prompts/) |
+| デザインシステム | Design System | [design-system/](./design-system/README.md) |
+| プロダクト体験パターン | Product Experience Patterns | [product-experience-patterns/](./product-experience-patterns/README.md) |
+| UX 方法論 | UX Methodology | [ux-methodology/](./ux-methodology/README.md) |
+| AI プロダクトデザイン | AI Product Design | [ai-product-design/](./ai-product-design/README.md) |
+| ワークフロー | Workflows | [workflows/](./workflows/README.md) |
+| プロンプトライブラリ | Prompt Library | [prompts/](./prompts/README.md) |
+| スキル | Skills | [skills/](./skills/README.md) |
+| ケーススタディ | Case Studies | [case-studies/](./case-studies/README.md) |
+| 学習ログ | Learning Log | [learning-log/](./learning-log/README.md) |
 
 ## プロンプトライブラリ / Prompt Library
 
@@ -30,29 +37,11 @@ This repository is the Markdown-based foundation of a “Product Designer OS,”
 
 Reusable AI instructions for product design, design systems, research, writing, and repository workflows.
 
-- [Prompt Library を見る / Browse Prompt Library](./prompts/README.md)
 - [Prompt Catalog](./prompts/catalog.md)
 - [新しい Prompt を作成 / Create a New Prompt](./prompts/meta/create-new-prompt.md)
 
 ## 言語方針 / Language convention
 
-- 日本語を先に、対応する英語を直後に記載します。
-- 見出しは可能な限り `日本語 / English` の形式にします。
-- 固有名詞や意味が変わる専門用語は、無理に翻訳せず原語を併記します。
+日本語を先に、その直後に対応する英語を記載します。未確定の内容は `Draft`、提案段階は `Proposed` と明示します。固有名詞や意味が変わる専門用語は、無理に翻訳せず原語を併記します。
 
-- Japanese appears first, followed immediately by the corresponding English.
-- Headings use the `日本語 / English` format wherever practical.
-- Proper nouns and technical terms that lose meaning in translation retain their original wording.
-
-## ドキュメントの基本構成 / Document pattern
-
-各ドキュメントは、目的、背景、原則または手順、具体例、参考資料、更新履歴を必要に応じて含めます。未確定の内容は `Draft` と明記します。
-
-Each document may include its purpose, context, principles or process, examples, references, and change history. Unfinished material is explicitly marked `Draft`.
-
-## ステータス / Status
-
-`Foundation — Draft`  
-初期フォルダーとプレースホルダーを整備中です。GitHub Pages は有効化していません。
-
-The initial folders and placeholder documents are being established. GitHub Pages is not enabled.
+Japanese appears first, immediately followed by English. Unfinished material is marked `Draft`; proposals are marked `Proposed`. Proper nouns and technical terms that lose meaning in translation retain their original wording.
